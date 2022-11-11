@@ -82,7 +82,7 @@ const buttons = {
             button.classList.add('active')
         }
 
-        button.onclick = (event) =>  {
+        button.onclick = (event) => {
             const page = Number(event.target.innerText)
             
             controls.goTo(page)
